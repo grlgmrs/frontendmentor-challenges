@@ -102,16 +102,8 @@
       </div>
 
       <script type="text/javascript">
-        function debounce(cb, delay) {
-          let timer = null;
-
-          return function () {
-            clearTimeout(timer);
-            timer = setTimeout(cb, delay);
-          };
-        }
-
         const lis = Array.from(document.querySelectorAll(".faq-block li"));
+        let debounce;
 
         for (const li of lis) {
           li.addEventListener("click", (e) => {
@@ -123,7 +115,10 @@
             }
 
             if (activeLiClassList !== closestLiClassList) {
-              closestLiClassList.add("active");
+              clearInterval(debounce);
+              debounce = setTimeout(() => {
+                closestLiClassList.add("active");
+              }, 550);
             }
           });
         }
