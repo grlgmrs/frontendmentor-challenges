@@ -1,3 +1,7 @@
+# Obs
+
+No firefox ocasionalmente ocorre um bug no cubo laranja, ao redimensionar. As regras de min e max length não estão sendo atualizadas no browser, embora estejam corretas. Atualizar a página caso o bug ocorra já é o suficiente.
+
 # Solução
 
 O desafio desenvolvido por <a href="https://www.linkedin.com/in/grlgmrs/">Gabriel Guimarães</a> está hospedado <a href="http://faqacm.grlgmrs.surge.sh/">aqui</a>.</br>

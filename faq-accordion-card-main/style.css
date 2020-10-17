@@ -286,12 +286,6 @@ h1 {
   }
 }
 
-@media screen and (max-width: 410px) {
-  html {
-    font-size: 12px;
-  }
-}
-
 .attribution {
   position: absolute;
   bottom: 10px;
@@ -304,4 +298,18 @@ h1 {
 .attribution a {
   color: hsl(14, 88%, 65%);
   text-decoration: none;
+}
+
+@media screen and (max-width: 440px) {
+  .attribution {
+    right: 0;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  html {
+    font-size: 12px;
+  }
 }
