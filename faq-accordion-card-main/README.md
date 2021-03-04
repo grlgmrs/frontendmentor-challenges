@@ -4,7 +4,7 @@ No firefox ocasionalmente ocorre um bug no cubo laranja, ao redimensionar. As re
 
 # Solução
 
-O desafio desenvolvido por <a href="https://www.linkedin.com/in/grlgmrs/">Gabriel Guimarães</a> está hospedado <a target="_blank" href="https://faqacm.grlgmrs.com.br/">aqui</a>.</br>
+O desafio desenvolvido por <a href="https://www.linkedin.com/in/grlgmrs/">Gabriel Guimarães</a> está hospedado <a target="_blank" href="https://faqacm-grlgmrs.vercel.app/">aqui</a>.</br>
 
 # Frontend Mentor - FAQ Accordion Card
 
